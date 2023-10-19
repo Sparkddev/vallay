@@ -1,0 +1,84 @@
+body{
+    max-height: 100vh;
+   
+    
+}
+
+
+.firstdiv{
+    height: 20vh;
+    
+    
+}
+
+.secondiv{
+    height: 50vh;
+  
+    background-color: #007CC3;
+}
+
+
+.thirdiv{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size:12px;
+    
+  
+}
+
+.mylogo{
+    width: 70%;
+    margin-top: 20px;
+}
+
+
+.label {
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.labeltwo {
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+.mybtn {
+    border: 1px solid white;
+    font-size: 12px;
+    color:white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .firstdiv{
+        height: 10vh;
+        
+        
+    }
+    .secondiv{
+        height: 70vh;
+      
+        background-color: #007CC3;
+    }
+
+    .thirdiv{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        font-size:12px;
+        padding: 10px;
+        
+      
+    }
+  }
